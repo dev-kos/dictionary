@@ -1,0 +1,37 @@
+@import "@fontsource/roboto/300.css";
+@import "@fontsource/roboto/400.css";
+@import "@fontsource/roboto/500.css";
+@import "@fontsource/roboto/700.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto";
+}
+
+.css-ptkaw2-MuiDataGrid-root .MuiDataGrid-columnHeaderTitleContainer {
+  font-weight: bold;
+  color: #000;
+  font-size: 18px;
+}
+
+.css-ptkaw2-MuiDataGrid-root
+  .MuiDataGrid-row:not(.MuiDataGrid-row--dynamicHeight)
+  > .MuiDataGrid-cell {
+  &:nth-child(2) {
+    border-right: 1px solid rgba(224, 224, 224, 1);
+  }
+}
+
+.cat {
+  position: absolute;
+  left: 240px;
+  top: 0px;
+  width: 100px;
+  z-index: 3;
+  height: 106px;
+}
